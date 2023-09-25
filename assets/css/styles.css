@@ -1,0 +1,95 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background: url('../images/img0.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    padding: 30px;
+    width: 400px;
+    color: white;
+  }
+  
+  .input-section {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    margin-top: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+  
+  /* The rest of the CSS remains unchanged */
+  
+  
+  .conversion-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    width: 48%;
+    cursor: pointer;
+    font-family: 'Comic Sans MS', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #ffcc66;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ffaa33;
+  }
+  
+  .result-section {
+    padding-top: 20px;
+  }
+  
+  p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Additional styles for extra buttons */
+  .extra-button {
+    margin-top: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-family: 'Comic Sans MS', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #66cc66;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .extra-button:hover {
+    background-color: #44aa44;
+  }
+  
